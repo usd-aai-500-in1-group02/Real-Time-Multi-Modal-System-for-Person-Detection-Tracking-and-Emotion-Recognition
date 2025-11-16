@@ -51,7 +51,7 @@ Pre-trained models fine-tuned on emotion datasets
 
 
 ### Pipeline Flow:
-![Pipeline Flow Diagram](images/pipeline_flow.png)
+![Pipeline Flow Diagram](Images/App_Pipeline_Flow.png)
 
 ### Expected Deliverables:
 Person detection with bounding boxes
