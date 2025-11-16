@@ -51,14 +51,14 @@ Pre-trained models fine-tuned on emotion datasets
 
 
 ### Pipeline Flow:
-
+![Pipeline Flow Diagram](images/pipeline_flow.png)
 
 ### Expected Deliverables:
 Person detection with bounding boxes
 Instance segmentation masks for each person
 Person count display
 Emotion labels on detected faces
-Tracking IDs maintained across video frames
+Tracking IDs are maintained across video frames
 Performance metrics (mAP, precision, recall, tracking accuracy, emotion classification accuracy)
 
 
