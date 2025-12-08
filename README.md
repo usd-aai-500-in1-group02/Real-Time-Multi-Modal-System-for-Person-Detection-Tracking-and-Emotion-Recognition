@@ -199,18 +199,59 @@ Please follow the repository code style and include a short description of exper
 
 License
 -------
-Specify your license here (e.g., MIT, Apache-2.0). If none yet, add LICENSE file to the repo.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Authors & contact
------------------
-Team: USD AAI 500 In1 Group 02  
-Primary repo contact: repo maintainers (see AUTHORS or CONTRIBUTORS file)
+### 📞 Contact & Collaboration
 
-Acknowledgements
-----------------
-- COCO, MOTChallenge, FER2013, AffectNet datasets
-- Ultralytics (YOLO) and other open-source model authors
-- Research papers and community implementations used as references
+**Project Team - Group 2**
+
+🔹 **Sourangshu Pal** - Senior Visual Computing Engineer  
+📧 Email: spal@sandiego.edu  
+🔗 LinkedIn: sourangshu.pal  
+🐙 GitHub: [sourangshupal](https://github.com/sourangshupal)
+
+🔹 **Riyaz Khorasi** - Senior Data Scientist  
+📧 Email: rkhorasi@sandiego.edu 
+🔗 LinkedIn: riyazkhorasi
+🐙 GitHub: [riyazkhorasi](https://github.com/Riyazmk1995)
+
+🔹 **Prashant Khare** - Lead AI Systems Architect 
+📧 Email: sabinageorge@sandiego.edu
+🔗 LinkedIn: [sabina-george--b289472a4](https://www.linkedin.com/in/sabina-george-b289472a4/)  
+
+
+**Academic Institution**  
+🎓 **University of San Diego**  
+📚 MS in Applied Artificial Intelligence Program  
+📖 Course: Applied Computer Vision for AI 
+👨‍🏫 Professor: [Ankur Bist]  
+📅 Academic Year: [2025]
+
+---
+
+### 🙏 Acknowledgments
+
+We extend our heartfelt gratitude to:
+
+- **University of San Diego Faculty**: For providing exceptional education and guidance in artificial intelligence
+- **Course Instructors**: For inspiring us to tackle meaningful challenges and push the boundaries of our knowledge
+- **Classmates & Peers**: For collaborative learning and mutual support throughout our academic journey
+- **Open Source Community**: For providing the foundational tools and libraries that made this project possible
+
+
+---
+
+<div align="center">
+
+### 💖 Made with Love by Group 2
+
+**Sourangshu Pal • Riyaz Khorasi • Sabina George**
+
+**University of San Diego | MS Applied Artificial Intelligence**
+
+**Applied Computer Vision for AI | 2025**
+
+---
 
 
 
