@@ -1,0 +1,232 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Model weights and large files
+*.pt
+*.pth
+*.onnx
+*.weights
+*.h5
+*.pb
+*.tflite
+*.mlmodel
+models/*.pt
+models/*.pth
+
+# Output directories
+outputs/
+output/
+results/
+runs/
+logs/
+*.log
+
+# Data directories (keep structure, ignore contents)
+data/images/*
+data/videos/*
+!data/images/.gitkeep
+!data/videos/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+tmp/
+temp/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/config.toml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Uploaded files
+uploads/
+uploaded_files/
+
+# Cache directories
+.cache/
+cache/
+*.cache
+
+# DeepFace cache
+~/.deepface/
+
+# TensorFlow/Keras
+*.keras
+checkpoint/
+checkpoints/
+
+# Credentials and secrets
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Project-specific files
+# Legacy/backup files from refactoring
+app4.py.bak
+app_old.py
+*_backup.py
+*_old.py
+
+# Video processing temporary files
+*.mp4.tmp
+*.avi.tmp
+processed_videos/
+video_cache/
+
+# Analytics and reports exports
+reports/
+exports/
+*.pdf
+*.csv
+*.xlsx
+!requirements.txt
+
+# Claude AI plan files
+.claude/
+*.claude.md
+
+# Detection/tracking cache
+detections_cache/
+tracks_cache/
+embeddings_cache/
+
+# Face detection cache (DeepFace, MTCNN)
+.deepface/
+deepface_models/
+mtcnn_weights/
+
+# Heatmap/trajectory data
+heatmaps/
+trajectories/
+*.heatmap
+*.trajectory
+
+# Session state backups
+session_state_*.json
+analytics_*.json
+
+# Processed outputs (keep directory structure)
+outputs/detections/*
+outputs/segmentations/*
+outputs/counting/*
+outputs/faces/*
+outputs/videos/*
+!outputs/**/.gitkeep
+
+*.pt
+COMPUTER VISION PROJECT (1).pdf
