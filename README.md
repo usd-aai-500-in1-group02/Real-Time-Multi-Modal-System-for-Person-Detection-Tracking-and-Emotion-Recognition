@@ -590,10 +590,10 @@ We extend our heartfelt gratitude to:
 🔗 LinkedIn: [riyazkhorasi](https://linkedin.com/in/riyazkhorasi)
 🐙 GitHub: [@Riyazmk1995](https://github.com/Riyazmk1995)
 
-🔹 **Sabina George** - Lead AI Systems Architect
+🔹 **Sabina George** -  Data Analyst Consultant 
 📧 Email: sabinga.george@sandiego.edu
-🔗 LinkedIn: [tanvisingh](https://linkedin.com/in/sabinga.george)
-🐙 GitHub: [@tanvisingh-11](https://github.com/sabinageorge-sudo)
+🔗 LinkedIn: [sabinageorge](https://linkedin.com/in/sabinga.george)
+🐙 GitHub: [@sabinageorge-sudo](https://github.com/sabinageorge-sudo)
 
 ---
 
@@ -608,7 +608,7 @@ We extend our heartfelt gratitude to:
 
 ### 💖 Built with Passion
 
-**Sourangshu Pal • Riyaz Khorasi • Tanvi Singh**
+**Sourangshu Pal • Riyaz Khorasi • Sabina George**
 
 **University of San Diego | MS Applied Artificial Intelligence**
 
