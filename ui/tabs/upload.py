@@ -385,14 +385,16 @@ def _run_video_processing(
         render_person_count_chart(
             results_data['frame_numbers'],
             results_data['person_counts'],
-            title="Person Count Over Time"
+            title="Person Count Over Time",
+            key="upload_person_count"
         )
 
     with col2:
         render_performance_chart(
             results_data['frame_numbers'],
             results_data['processing_times'],
-            title="Processing Performance"
+            title="Processing Performance",
+            key="upload_performance"
         )
 
     # Emotion distribution

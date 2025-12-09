@@ -12,7 +12,8 @@ import pandas as pd
 def render_person_count_chart(
     frame_numbers: List[int],
     person_counts: List[int],
-    title: str = "Person Count Over Time"
+    title: str = "Person Count Over Time",
+    key: Optional[str] = None
 ) -> None:
     """
     Render person count timeline chart.
@@ -21,6 +22,7 @@ def render_person_count_chart(
         frame_numbers: List of frame numbers
         person_counts: List of person counts
         title: Chart title
+        key: Unique key for the chart widget
     """
     if not frame_numbers or not person_counts:
         st.info("No data available for chart")
@@ -47,7 +49,7 @@ def render_person_count_chart(
         margin=dict(l=50, r=50, t=50, b=50)
     )
 
-    st.plotly_chart(fig, use_container_width=True, key="person_count_chart")
+    st.plotly_chart(fig, use_container_width=True, key=key)
 
 
 def render_emotion_pie_chart(
@@ -91,13 +93,14 @@ def render_emotion_pie_chart(
         margin=dict(l=50, r=50, t=50, b=50)
     )
 
-    st.plotly_chart(fig, use_container_width=True, key="emotion_pie_chart")
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def render_performance_chart(
     frame_numbers: List[int],
     processing_times: List[float],
-    title: str = "Processing Performance"
+    title: str = "Processing Performance",
+    key: Optional[str] = None
 ) -> None:
     """
     Render processing performance chart.
@@ -106,6 +109,7 @@ def render_performance_chart(
         frame_numbers: List of frame numbers
         processing_times: List of processing times in seconds
         title: Chart title
+        key: Unique key for the chart widget
     """
     if not frame_numbers or not processing_times:
         st.info("No performance data available")
@@ -141,7 +145,7 @@ def render_performance_chart(
         margin=dict(l=50, r=50, t=50, b=50)
     )
 
-    st.plotly_chart(fig, use_container_width=True, key="performance_chart")
+    st.plotly_chart(fig, use_container_width=True, key=key)
 
 
 def render_violations_chart(
@@ -179,7 +183,7 @@ def render_violations_chart(
         margin=dict(l=50, r=50, t=50, b=50)
     )
 
-    st.plotly_chart(fig, use_container_width=True, key="violations_chart")
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def render_direction_chart(
@@ -223,7 +227,7 @@ def render_direction_chart(
         margin=dict(l=50, r=50, t=50, b=50)
     )
 
-    st.plotly_chart(fig, use_container_width=True, key="direction_chart")
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def render_heatmap_chart(
@@ -254,7 +258,7 @@ def render_heatmap_chart(
         margin=dict(l=50, r=50, t=50, b=50)
     )
 
-    st.plotly_chart(fig, use_container_width=True, key="heatmap_chart")
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def render_multi_metric_chart(
@@ -297,4 +301,4 @@ def render_multi_metric_chart(
         margin=dict(l=50, r=50, t=80, b=50)
     )
 
-    st.plotly_chart(fig, use_container_width=True, key="multi_metric_chart")
+    st.plotly_chart(fig, use_container_width=True)

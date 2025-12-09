@@ -58,12 +58,12 @@ def render_analytics_tab(
         st.subheader("👥 Person Count Over Time")
         frame_nums = [d['frame_number'] for d in analytics_dashboard.frame_data]
         person_counts = [d['person_count'] for d in analytics_dashboard.frame_data]
-        render_person_count_chart(frame_nums, person_counts)
+        render_person_count_chart(frame_nums, person_counts, key="analytics_person_count")
 
     with col2:
         st.subheader("⚡ Processing Performance")
         proc_times = [d['processing_time'] for d in analytics_dashboard.frame_data]
-        render_performance_chart(frame_nums, proc_times)
+        render_performance_chart(frame_nums, proc_times, key="analytics_performance")
 
     st.markdown("---")
 
